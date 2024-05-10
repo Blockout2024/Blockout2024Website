@@ -16,10 +16,6 @@ The frontend of Celebrity Follower Tracker is responsible for providing a user-f
 - **Chart.js**: A JavaScript library for creating charts and graphs to visualize the fluctuation of celebrities' follower counts.
 - **Bootstrap or Material-UI**: Front-end frameworks for designing responsive and visually appealing UI components.
 
-## Setup Instructions
-1. Clone the repository:
-****https://github.com/BlockCelebs/Blockout2024.git
-
 
 ## Contributing
 Contributions to the frontend development of Celebrity Follower Tracker are welcome! To contribute:
