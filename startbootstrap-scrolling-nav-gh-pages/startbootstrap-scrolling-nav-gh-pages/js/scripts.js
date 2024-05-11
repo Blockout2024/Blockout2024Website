@@ -7,7 +7,20 @@
 // Scripts
 // 
 
-window.addEventListener('DOMContentLoaded', event => {
+// scripts.js
+
+document.addEventListener('DOMContentLoaded', event => {
+    // Hover effect to scale the image
+    const image = document.querySelector("img");
+    if (image) {
+        image.addEventListener("mouseenter", function( event ) {   
+            event.target.style.transform = "scale(1.1)";
+        });
+
+        image.addEventListener("mouseleave", function( event ) {   
+            event.target.style.transform = "scale(1)";
+        });
+    }
 
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
@@ -30,5 +43,4 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
-
 });
